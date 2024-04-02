@@ -1,16 +1,33 @@
 body {
-  background-color: gainsboro;
-  color: gray;
+  background-color: blanchedalmond;
+  color: brown;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 a {
-  color: maroon;
-  text-decoration: none;
+  color: burlywood;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.photo {
-  border-radius: 6px;
+.croissant-image {
+  border-radius: 8px;
   width: 65%;
+  margin: 10px;
+}
+
+.la-fournette {
+  border-radius: 8px;
+  margin-bottom: 18px;
 }
